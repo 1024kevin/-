@@ -1,0 +1,36 @@
+/* 
+flex布局
+.father {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.son {
+   ...
+} */
+
+
+
+/* 绝对定位配合margin:auto
+.father {
+    position: relative;
+}
+.son {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+} */
+
+/* 绝对定位配合transform的实现
+.father{
+    position: relative;
+}
+.son{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
